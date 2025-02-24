@@ -52,27 +52,25 @@
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Programming-Hero-Web-Course4/b10a12-client-side-mdashik-dev/tree/main
+   git clone https://github.com/mdashik-dev/studyhub-client.git
    ```
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd collaborative-study-platform
+   cd studyhub-client
    ```
 
 3. **Install frontend dependencies**:
 
    ```bash
-   cd client
    npm install
    ```
 
-4. **Install backend dependencies**:
+4. **Clone backend Repository**:
 
    ```bash
-   cd server
-   npm install
+   https://github.com/mdashik-dev/studyhub-server.git
    ```
 
 5. **Configure environment variables**:
@@ -105,15 +103,14 @@
 6. **Start the backend server**:
 
    ```bash
-   cd server
-   npm start
+   cd studyhub-server
+   npm run server
    ```
 
 7. **Start the frontend development server**:
 
    ```bash
-   cd client
-   npm start
+   npm run dev
    ```
 
 ## Usage
